@@ -1,0 +1,121 @@
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.section-heading {
+  font-size: 24px;
+}
+
+.section-content {
+  font-size: 16px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-content {
+  width: 60%;
+}
+
+.right-content {
+  width: 35%;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 1200px) {
+  .left-content,
+  .right-content {
+    width: 1000px;
+  }
+}
+
+@media (max-width: 992px) {
+  .left-content {
+    width: 700px;
+  }
+
+  .right-content {
+    width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  .left-content {
+    width: 500px;
+  }
+
+  .right-content {
+    width: 500px;
+  }
+}
+
+@media (max-width: 380px) {
+  .left-content,
+  .right-content {
+    width: 300px;
+  }
+}
+
+/* Positioning elements */
+.up-content {
+  position: relative;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Additional CSS properties */
+.company-name {
+  font-weight: bold;
+}
+
+.occupation {
+  font-style: italic;
+}
+
+/* Simple animation */
+.section-heading,
+.section-content {
+  transition: font-size 0.3s ease;
+}
+
+.container {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.footer {
+  position: sticky;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "parcel": "^2.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "absolute" : "parcel absolute.html",
+    "fixed": "parcel fixed.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vlado-hub/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vlado-hub/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Vlado-hub/Portfolio#readme"
+}
