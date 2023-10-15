@@ -10,7 +10,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "absolute" : "parcel absolute.html",
-    "fixed": "parcel fixed.html"
+    "fixed": "parcel fixed.html",
+    "grid": "parcel grid.html"
   },
   "repository": {
     "type": "git",
